@@ -236,12 +236,6 @@ Moreover, we have also thought about patient privacy, and for the same reason, n
 
 *Figure 19 Generated PDF report*
 
-Lastly, we have created an **"About Us"** page (Figure 20). The **"About Us"** page shows the core value of individual team members and their effort to deliver the end product.
-
-![About Us page](./readme_images/20.png)
-
-*Figure 20 About Us Page*
-
 # Results and Evaluation
 The model evaluation and performance on the test and validation images are as follows:
 

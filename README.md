@@ -173,39 +173,6 @@ EfficientNet used compound scaling (Figure 8), which uniformly scales the networ
 
 **We have chosen to use EfficientNet B4, B5 and B7 as these model achieved start-of-the-art 84.4% top-1/ 97.1% top 5 accuracies (Mingxing & Quoc, 2019) on the ImageNet competition.**
 
-####  ***You can view the CNN model visualisation under [Model Visualisation.](./Model%20Visualisation/)***
-
-####  ***To start the training process run [`./Src/Model%20Training/main_run.py`](./Src/Model%20Training/main_run.py) file. Also, to create a Compute Instance on Azure refer to [`./Src/README.md`](https://github.com/Tirth27/Skin-Cancer-Classification-using-Deep-Learning/blob/main/Src/README.md)***
-
-## GUI Design
-To tackle the challenge of identifying skin cancer from skin lesions, we have to build a predictive model for **Computer-Aided Diagnosis (CAD)**. Taking the skin lesions image and patient demographic information as input, we have developed a prototype web application that can help dermatologists interpret skin lesion images.
-
-The web GUI consists of five main pages, of which four of them are used to explain the benefit of using the tool and way to reduce the death caused by skin cancer. The inference page named **"Our Solution"** is where the inference is performed using ensemble methodology.
-
-The main page introduces the user to the approach we have chosen to scale across the domain where we merge the deep learning technology with the health care sector. Also, the main pages have four main sections (Figure 10, 11, 12 and 13). We have added button on the navigation bar for user convenience, which takes the user to the specified section.
-
-![Main page](./readme_images/10.png)
-
-*Figure 10 Main page (Section one)*
-
-We introduce the end-user to the melanoma and its severity in section two (Figure 11). Section two provides a generalised introduction of melanoma that the user can easily understand. Plus, we have provided a **"Explore"** button that redirects the user to the **"Info"** page (Figure 12). The information page provides in-depth information on the severity of skin cancer with its symptoms. The information page (Figure 12) is designed to keep the curious user in mind who wants to understand the problem profoundly.
-
-![Main page](./readme_images/11.png)
-
-*Figure 11 Main page (section two)*
-
-![Info page](./readme_images/12.png)
-
-*Figure 12 Info Page*
-
-Once the user is familiar with skin cancer, we took the user to section three (Figure 13), showing how deep learning can help dermatologist in their clinical work. When the user clicks on the **"Explore"** button, they are redirected to the **"Tools"** page. The tools page will make the user familiar with deep learning and how it can help to reduce the death caused by melanoma skin cancer.
-
-![Main page](./readme_images/13.png)
-
-*Figure 13 Main page (Section three)*
-
-![Tools page](./readme_images/14.png)
-
 *Figure 14 Tools Page*
 
 In the last section of the main page (Figure 15), we introduce our CAD system. When **"Explore Our Solution"** is click, it will bring the end-user to the **"Our Solution"** page. The **"Our Solution"** page is where the inference of the skin lesion image is performed (Figure 16). The minimal materialised design is chosen, which looks attractive and encourage end-user to use the tool repeatedly.

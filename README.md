@@ -179,30 +179,6 @@ In the last section of the main page (Figure 15), we introduce our CAD system. W
 
 The **"Our Solution"** page contains two main things. Firstly, a user needs to add the patient detail under the **"Fill Patient Detail"** section for which the inference is performed. Then a user needs to upload the skin lesion image. The validation is performed on the client-side using JQuery, and it will not allow the end-user to submit the detail until all the information is valid. The validation is performed on the client-side to reduce the server load.
 
-![Main page](./readme_images/15.png)
-
-*Figure 15 Main page (section four)*
-
-![Our Solution page](./readme_images/16.png)
-
-*Figure 16 Our Solution Page (Before Patient Details and Image Upload)*
-
-The validated information is sent to the server on the **"Upload"** button click where the network is ready to the server (Figure 17). The optimised network analyses the image, returning the inference to the client (Figure 18). The inference is automatically populated in the interactive bar graph (Figure 18). The bar graph is easy to read, and it infers the chances of having skin cancer and its type. The information that the end-user has inserted into the **"Fill Patient Detail"** section (Figure 17) is automatically populated in the inference section (Figure 18) for users' convenience. Also, we have provided the functionality to generate the report that can be stored locally for later use (Figure 19) just by click on the **"Generate PDF"** button. The [PDF report](./readme_images/Patient_ID_ISIC%202029.pdf) includes the end-user information with the network prediction (Figure 19).
-
-Moreover, we have also thought about patient privacy, and for the same reason, none of the patient demographic and skin lesion images are stored on the server. The server received the patient skin lesion image and performed the inference without storing it on the server.
-
-![Our Solution page](./readme_images/17.png)
-
-*Figure 17 Our Solution Page (After Patient Details and image Upload)*
-
-![Our Solution page](./readme_images/18.png)
-
-*Figure 18 Our Solution Page (Network inference)*
-
-![Generated PDF report](./readme_images/19.png)
-
-*Figure 19 Generated PDF report*
-
 # Results and Evaluation
 The model evaluation and performance on the test and validation images are as follows:
 

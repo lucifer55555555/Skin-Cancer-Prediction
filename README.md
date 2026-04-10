@@ -225,7 +225,7 @@ Almost all the EfficientNet model is getting the similar training and validation
 
 *Table 3, the Model inference result*
 
-# Model Evaluation and Deployment
+# Model Evaluation
 The EfficientNet ensemble mechanism significantly improves the average prediction performance with reduction is variance component of prediction error (Table 3). The EfficientNet ensemble is able to generalise well as the models are getting higher accuracy on the validation set compared to the training set (Table 3).
 
 From Figure 22, we can say that B4 generalised well on the unseen validation dataset. If the model is trained for a longer epoch, it can achieve higher accuracy. The validation loss fluctuates during the initial epoch, but it gets stable at the end of the training (Figure 22).  Also, the training and validation loss is decreasing continuously, which shows that training for a higher number of epochs can help achieve better results (Further detail about future opportunities is under ***Limitations, Future Extension, and Improvements section***). 
